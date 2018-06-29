@@ -1,0 +1,11 @@
+.board {
+    background: #ccc;
+    padding: 10px;
+    height: 1000px;
+}
+.board:after {
+    content: '';
+    clear: both;
+    float: none;
+    display: block;
+}

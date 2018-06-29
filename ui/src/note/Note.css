@@ -1,0 +1,22 @@
+.note {
+    padding: 10px;
+    float: left;
+    margin: 10px;
+    background: #9c27b0;
+    color: #fff;
+    font-family: sans-serif;
+    max-width: 100px;
+    width: 100px;
+    height: 150px;
+    max-height: 150px;
+}
+
+.note-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.note-description {
+    font-size: 12px;
+    font-weight: 100;
+}
