@@ -1,0 +1,4 @@
+create database todo;
+use todo;
+create table users (id int auto_increment primary key, name varchar(30) NOT NULL, created timestamp default CURRENT_TIMESTAMP);
+create table notes (id int auto_increment primary key, user_id int not null, title varchar(30), description varchar(100), created timestamp default CURRENT_TIMESTAMP, status int default 1, foreign key (user_id) references users(id));
